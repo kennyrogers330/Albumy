@@ -12,8 +12,8 @@ Demo: http://albumy.helloflask.com
 
 clone:
 ```
-$ git clone https://github.com/greyli/albumy.git
-$ cd albumy
+$ git clone https://github.com/kennyrogers330/Albumy.git
+$ cd Albumy
 ```
 create & activate virtual env then install dependency:
 
@@ -27,6 +27,10 @@ or with Pipenv:
 ```
 $ pipenv install --dev
 $ pipenv shell
+```
+Cognitive Service
+```
+$ Acquire Azure Key and API For the Cognitive Service used and add them to  a .env file on the server root directory
 ```
 generate fake data then run:
 ```
